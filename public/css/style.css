@@ -2,11 +2,25 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 200px;
+  width: max-content;
+  border-radius: 1rem;
+  padding: 30px;
+  background-color: white;
+}
+body{
+  background-color: rgb(218, 218, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 select{
     width: 100%;
 }
 
+.imagen{
+  display: block;
+}
 #formWeight {
   display: grid;
   gap: 20px;
@@ -34,5 +48,8 @@ select{
 .nomenclatura{
     display: grid;
     grid-template-columns: auto max-content;
+}
+.resultado{
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
