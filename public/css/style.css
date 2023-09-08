@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+select{
+    width: 100%;
+}
+
+#formWeight {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-content: stretch;
+}
+
+.labelForm {
+  display: block;
+}
+.resultado{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap:20px
+}
+.minimo, .maximo{
+    padding: 6px;
+}
+.alturaCM, .pesoKG{
+    background-color: rgb(198, 198, 198);
+    font-size: larger;
+    font-weight: 700;
+}
+.nomenclatura{
+    display: grid;
+    grid-template-columns: auto max-content;
+}
+/*# sourceMappingURL=style.css.map */

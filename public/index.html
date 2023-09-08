@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuanto tengo que consumir?</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container"> 
+        <header class="imagen">
+
+        </header>
+        <main class="flexBox">
+            <section class="form">
+                <form action="#" id="formWeight">
+                    <!--elegir el sexo-->
+                    <div class="sexo" id="sexo">
+                        <label for="gender" class="labelForm">Sexo</label>
+                        <select name="gender" id="sexoForm"> 
+                            <option value="Hombre" selected>Hombre</option>
+                            <option value="Mujer">Mujer</option>
+                        </select> 
+                    </div>
+                    <!--elegir la edad-->
+                    <div class="edad" id="edad">
+                        <label for="age" class="labelForm">Edad</label>
+                        <input type="text" id="edadForm" name="age" placeholder="21">
+                    </div>
+                    <!--elegir la altura-->
+                    <div class="altura" id="altura">
+                        <label for="heigt" class="labelForm">Altura</label>
+                        <div class="nomenclatura">
+                            <input type="text" name="heigt" placeholder="170">
+                            <p class="alturaCM">cm</p>
+                        </div>
+                    </div>
+                    <!--elegir el peso-->
+                    <div class="peso" id="peso">
+                        <label for="weight" class="labelForm">Peso</label>
+                        <div class="nomenclatura">
+                            <input type="text" name="weight" placeholder="70">
+                            <p class="pesoKG">Kg</p>
+                        </div>
+                    </div>
+                    <!--cuanta actividad haces-->
+                    <div class="actividad" id="actividad">
+                        <label for="activity">Actividad</label>
+                        <select name="activity" id="actividadForm">
+                            <option value="alto">Alta</option>
+                            <option value="media">Media</option>
+                            <option value="baja">Baja</option>
+                        </select>
+                    </div>
+                    <input type="submit" value="Calcular">
+                </form>
+            </section>
+            <section class="resultado">
+                    <input type="text" value=""  class="minimo" readonly>
+                    <input type="text" value=""  class="maximo" readonly>
+            </section>
+        </main>
+    </div>
+</body>
+</html>

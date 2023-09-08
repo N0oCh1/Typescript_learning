@@ -1,0 +1,23 @@
+$colorBackground: rgb(85, 85, 85);
+$colorButtom: rgb(255, 0, 72);
+$colorBorder: gray;
+$colorShadow: rgb(70, 70, 70);
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexBox{
+    display: flex;
+    width: 500px;
+}
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: stretch;
+}
+.labelForm{
+    display: block;
+}
